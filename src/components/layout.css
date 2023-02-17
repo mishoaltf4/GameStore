@@ -1,0 +1,120 @@
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #1e1e1e;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 999;
+}
+
+.header-inner{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-inner__left{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-left__logo{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-left__logo a{
+    color: #eb576c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-left__logo a h1{
+    left: 10%;
+    position: absolute;
+}
+
+.header-left__search input{
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    padding: 0 10px;
+    background-color: #27292a;
+    color: #666;
+    outline: none;
+}
+
+.header-inner__right{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-right__navigation{
+    width: 65%;
+}
+
+.header-right__navigation ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-right__navigation a{
+    color: #666;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.header-right__navigation .active a{
+    color: #eb576c;
+}
+
+.header-right__navigation a:hover{
+    color: #eb576c;
+}
+
+.header-right__profile button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: #27292a;
+    color: #666;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.header-right__profile button:hover{
+    background-color: #eb576c;
+    color: #fff;
+}
+
+
+
+
+footer{
+    width: 100%;
+    height: 100%;
+    padding: 30px 20px;
+    color: #666;
+    text-align: center;
+    font-size: 20px;
+}

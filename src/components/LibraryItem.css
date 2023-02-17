@@ -1,0 +1,54 @@
+.library-product{
+    margin-top: 25px;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #666;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.library-product p{
+    font-size: 17px;
+    color: #666;
+}
+
+.library-product__img{
+    width: 75px;
+    height: 75px;
+    border-radius: 25px;
+    background-size: cover;
+    background-position: center;
+}
+
+.library-product__title{
+    width: 150px;
+}
+
+.library-product__genre{
+    width: 150px;
+}
+
+.library-product__price{
+    width: 150px;
+}
+
+.library-product button{
+    width: 150px;
+    height: 45px;
+    background: transparent;
+    border: 2px solid #666;
+    border-radius: 30px;
+    color: #666;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.library-product button:hover{
+    background-color: #eb576c;
+    border-color: #eb576c;
+    color: #fff;
+}
+
