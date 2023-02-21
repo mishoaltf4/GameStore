@@ -40,7 +40,7 @@ function Layout() {
                       <Link to={"/popular"}>Popular</Link>
                     </li>
                     <li>
-                      <a href="#">Game</a>
+                      <Link to="/sale">Sale</Link>
                     </li>
                     <li>
                       <a href="#">Game</a>
@@ -49,7 +49,9 @@ function Layout() {
                 </nav>
               </div>
               <div className="header-right__profile">
-                <button>Profile</button>
+                <Link to="/registration">
+                  <button>Profile</button>
+                </Link>
               </div>
             </div>
           </div>
@@ -66,8 +68,8 @@ function Layout() {
         <div className="container">
           <div className="footer-inner">
             <p>
-              Copyright (BY Bloodny ♥) © 2023 CyberGames Company. All rights
-              reserved.
+              Copyright © 2023 CyberGames Company. All rights reserved. Created:
+              (BY Bloodny ♥)
             </p>
           </div>
         </div>

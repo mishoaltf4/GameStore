@@ -28,7 +28,7 @@ function Home({ games, library }) {
           <PopularList games={games} />
         </div>
         <Link to={"/popular"}>
-          <button className="Hoper">Show more</button>
+          <button className="btn">Show more</button>
         </Link>
       </div>
 
@@ -39,7 +39,7 @@ function Home({ games, library }) {
 
         <div className="home-library__products">
           <LibraryList library={library} />
-          <button className="Hoper">Open library</button>
+          <button className="btn">Open library</button>
         </div>
       </div>
     </div>

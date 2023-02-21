@@ -3,6 +3,8 @@ import { Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import Popular from "./pages/Popular";
+import Registration from "./pages/Registration";
+import Sale from "./pages/Sale";
 
 function App() {
   const [popular, setPopular] = React.useState([
@@ -91,7 +93,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home games={popular} library={library} />} />
-          <Route path="popular" element={<Popular />} />
+          <Route path="popular" element={<Popular games={popular} />} />
+          <Route path="sale" element={<Sale />} />
+          <Route path="registration" element={<Registration />}></Route>
         </Route>
       </Routes>
     </div>

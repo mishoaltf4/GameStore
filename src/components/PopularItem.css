@@ -52,14 +52,24 @@
 }
 
 .product-content-right__downloads{
+    color: red;
     margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+.product-content-right__downloads p{
+    color: #fff;
+}
+
 .product-content-right__star{
+    color: yellow;
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.product-content-right__star p{
+    color: #fff;
 }
